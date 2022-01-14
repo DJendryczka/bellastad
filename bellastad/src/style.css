@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(161, 161, 161);
+    margin: 0;
+    
+   
+}
+#navbar {
+    width: 100%;
+    margin-top: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%  ;
+
+}
+.nav_button {
+    width: 10vmax;
+    height: 6vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: .5em;
+    transition: 0.5s;
+}
+.nav_button:hover {
+    background-color: rgba(78, 68, 68, 0.397);
+}
+.nav_buttons {
+    display: flex;
+}
+img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 5px 9px 15px rgb(46, 56, 88);
+  
+}
+a {
+    font-size: 1.5vmax;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    
+}
+.logo {
+    width: 4.2rem;
+    margin: 5px 0 5px 20px;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/main.jpg);
+    background-size: cover;
+    margin: 10px;
+    text-align: center; 
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   
+}
+section div {
+    margin-bottom: 300px;
+}
+
+#about_us {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.hero-text {
+    width: 35%;
+    text-align: center;
+}
+.aboutimg {
+    width: 50%;
+    
+}
+
+
+h2 {
+    font-size: 3vmax;
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    width: 80%;
+    margin-top: 4rem;
+}
+p {
+    text-align: center;
+    font-size: 1.7rem;  
+}
+
+#our_services {
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+   
+}
+
+.imgservices {
+    width: 25%;
+}
+.servicetext {
+    width: 40%;
+}
+li {
+    font-size: 2vmax;
+}
+#contact {
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 8px;
+}
+@media (max-width: 400px) {
+    #about_us {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-text {
+        width: 80%;
+        text-align: center;
+    }
+    .aboutimg {
+        width: 80%;
+        
+    }
+    #our_services {
+        width: 98%;
+        height: 70vh;
+    }
+    .imgservices {
+        width: 40%;
+    }
+    .servicetext {
+        width: 55%;
+    }
+    h3 {
+        font-size: 2rem;
+        padding-left: 17px;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    .logo {
+    width: 3rem;
+}
+
+}
+@media (min-width: 600px) {
+    .home {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 8px;
+        text-align: center; 
+    }
+}
+
+
+
+
+
